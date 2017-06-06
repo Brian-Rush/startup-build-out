@@ -499,7 +499,8 @@ h1 {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: .95em;
-  font-weight: 100; }
+  font-weight: normal;
+  color: #414141; }
 
 header {
   width: 100vw;
@@ -507,10 +508,31 @@ header {
   background-color: #ffffff;
   padding: 10px 10px; }
 
+.sect-find-event {
+  height: 215px;
+  background-color: #3ccf80; }
+
 .sect-hero {
   color: #ffffff;
   background-image: url("../img/green/sw-hero-home.png");
-  background-position: center; }
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 50px; }
+
+.sect-hero h1 {
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 16px; }
+
+.sect-hero p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 30px; }
+
+.sect-hero h1, .sect-hero p {
+  margin: 0 30px; }
 
 header button.hamburger {
   position: relative;

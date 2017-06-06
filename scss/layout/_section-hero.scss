@@ -1,5 +1,27 @@
 .sect-hero {
+  // position: relative;
+  // overflow: auto;
   color: $white;
   background-image: url("../img/green/sw-hero-home.png");
   background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.sect-hero h1 {
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+
+.sect-hero p {
+  color: $white;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.sect-hero h1, .sect-hero p {
+  margin: 0 30px;
 }
