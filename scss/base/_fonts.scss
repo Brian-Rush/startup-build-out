@@ -2,16 +2,17 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  // src: url('webfont.eot'); /* IE9 Compat Modes */
-  // src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  //      url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-  //      url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-  //      url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-  //      url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+$primary-font: 'Montserrat', sans-serif;
+$title-font: 'Open Sans', sans-serif;
 
-@font-face {
-  font-family: 'Open Sans', sans-serif;
-}
+// @font-face {
+//   font-family: "glyphicons"
+//   src: url('../../fonts/glyphicons-halflings-regular.woff'); /* IE9 Compat Modes */
+//   // src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//   //      url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+//   //      url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+//   //      url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//   //      url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+// }
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")

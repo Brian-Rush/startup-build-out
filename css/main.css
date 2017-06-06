@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -423,22 +424,11 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #3CCF80;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #222222;
     text-decoration: underline; }
-
-@font-face {
-  font-family: 'Montserrat', sans-serif; }
-@font-face {
-  font-family: 'Open Sans', sans-serif; }
-/**
- * Basic typography style for copy text
- */
-body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
  * Clear inner floats
@@ -494,5 +484,52 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #222222;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: .95em;
+  font-weight: 100; }
+
+header {
+  width: 100vw;
+  height: 70px;
+  background-color: #ffffff;
+  padding: 10px 10px; }
+
+.sect-hero {
+  color: #ffffff;
+  background-image: url("../img/green/sw-hero-home.png");
+  background-position: center; }
+
+header button.hamburger {
+  position: relative;
+  display: block;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: transparent;
+  background-color: transparent; }
+
+.hamburger .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #3ccf80; }
+  .hamburger .icon-bar:nth-child(n+1) {
+    margin-top: 5px; }
 
 /*# sourceMappingURL=main.css.map */

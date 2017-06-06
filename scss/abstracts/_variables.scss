@@ -14,7 +14,35 @@ $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvet
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
+/// GREENS AND GREYS COLOR SCHEME
 
+// white
+$white: #ffffff;
+//pale pale grey for background of content
+$wild-sand: #f4f4f4;
+//mid gray (schedule panel header)
+$gray: #808080;
+//dark gray
+$charcoal: #414141;
+//main green
+$ufo-green: #3ccf80;
+//slightly darker green
+$medium-sea-green: #33b06c;
+
+
+// NON-SPECIFIC COLOR SCHEME
+// white
+$white: #ffffff;
+//light background color
+$light-bg: $wild-sand;
+//mid-tone neutral - gray (schedule panel header)
+$neutral-mid: $gray;
+//dark-neutral
+$neutral-dark: $charcoal;
+//primary
+$primary: $ufo-green;
+//primary darkened
+$darkened-primary: $medium-sea-green;
 
 
 
@@ -22,12 +50,25 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
 
-/// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$text-color-dark: rgb(34, 34, 34) !default;
+
+/// @type Color
+$text-color-mid: rgb(34, 34, 34) !default;
+
+/// @type Color
+$text-color-light: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// UFO Green
+$brand-color: #3CCF80 !default;
+
+/// Lightest grey
+/// Wild Sand (almost white, background of page)
+$light-grey: rgb(237, 237, 237) !default;
 
 /// Light grey
-/// @type Color
+/// Athens Grey
 $light-grey: rgb(237, 237, 237) !default;
 
 /// Medium grey
